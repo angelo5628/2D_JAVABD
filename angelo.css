@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabela1, .tabela2 {
+    width: 196vh;
+}
+
+.coisotabela1, .coisotabela2 {
+    font-size: 20px;
+}
+
+.tabela1, .coisotabela1, th, .tabela2, .coisotabela2 {
+    border: 1px solid black;
+    text-align: center;
+    font-family: monospace;
+}
+
+.tabela1 {
+    margin-bottom: 50px;
+}
+
+.formulario {
+    padding-bottom: 100px;
+}
+
+.textoform, .textoform1 {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+input, .textao {
+    width: 250px;
+}
