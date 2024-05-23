@@ -1,10 +1,17 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .tabela1 th, .tabela1 td {
+        padding: 6px;
+    }
 }
 
 .tabela1, .tabela2 {
-    width: 196vh;
+    width: 100%;
+    max-width: 100%;
 }
 
 .coisotabela1, .coisotabela2 {
@@ -32,4 +39,13 @@ body {
 
 input, .textao {
     width: 250px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+}
+
+.bigbrain {
+    width: 100%;
+    max-width: 100%;
 }
