@@ -4,9 +4,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    .tabela1 th, .tabela1 td {
-        padding: 6px;
-    }
+    
 }
 
 .tabela1, .tabela2 {
@@ -48,4 +46,5 @@ input, textarea {
 .bigbrain {
     width: 100%;
     max-width: 100%;
+
 }
